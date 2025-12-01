@@ -1,7 +1,7 @@
 import * as React from 'react'
 
-import '@hackclub/theme/fonts/reg-ital-bold.css'
-import theme from '@hackclub/theme'
+import '@happyhackingspace/theme/fonts/reg-ital-bold.css'
+import theme from '@happyhackingspace/theme'
 import { ThemeProvider } from 'theme-ui'
 
 export default function App({ Component, pageProps }) {

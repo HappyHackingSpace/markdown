@@ -1,4 +1,4 @@
-import md from '@hackclub/markdown'
+import md from '@happyhackingspace/markdown'
 
 export default async (req, res) => {
   const { text } = req.query

@@ -1,6 +1,6 @@
-import visit from 'unist-util-visit'
-import toString from 'mdast-util-to-string'
-import removeNode from 'unist-util-remove'
+import {visit} from 'unist-util-visit'
+import { toString } from 'mdast-util-to-string'
+import { remove } from 'unist-util-remove'
 import GithubSlugger from 'github-slugger'
 
 export const handlers = {

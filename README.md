@@ -1,13 +1,13 @@
-# `@hackclub/markdown`
+# `@happyhackingspaace/markdown`
 
-Render Markdown to HTML, Hack Club-style. Used primarily on the [Hack Club Workshops](https://hackclub.com/workshops/) site.
+Render Markdown to HTML, Happy Hacking Space-style.
 
 ```sh
-yarn add @hackclub/markdown
-# npm i @hackclub/markdown
+yarn add @happyhackingspace/markdown
+# npm i @happyhackingspace/markdown
 ```
 
-[**Try the demo**](https://markdown.hackclub.com)
+[**Try the demo**](https://markdown.happyhacking.space)
 
 ## Usage
 
@@ -20,7 +20,7 @@ Always use with `await`.
 
 ```js
 import fs from 'fs'
-import md from '@hackclub/markdown'
+import md from '@happyhackingspace/markdown'
 
 const getReadme = async () => (
   const text = fs.readFileSync('./README.md', 'utf8')
@@ -36,7 +36,7 @@ const getReadme = async () => (
 | removeTitle | `false`        | Bool. Remove starting `h1` (if titles are rendered separately). |
 
 If you need to parse frontmatter, we recommend using [gray-matter](https://npm.im/gray-matter)
-alongside `@hackclub/markdown`, but it’s not included in this package.
+alongside `@happyhackingspace/markdown`, but it’s not included in this package.
 
 ***
 

@@ -3,7 +3,7 @@ const md = require('../dist')
 
 const text = `# Beep
 
-**Boop!** from [Hack Club](https://hackclub.com/).
+**Boop!** from [Happy Hacking Space](https://happyhacking.space/).
 `
 
 const text2 = `
@@ -25,7 +25,7 @@ test('returns html for markdown', async (t) => {
   t.is(typeof result, 'string')
   t.true(result.startsWith('<h1>'))
   t.true(result.includes('<strong>'))
-  t.true(result.includes('Hack Club'))
+  t.true(result.includes('Happy Hacking Space'))
   t.snapshot(result)
 })
 

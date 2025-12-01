@@ -10,13 +10,13 @@ import {
   Textarea
 } from 'theme-ui'
 import Head from 'next/head'
-import Meta from '@hackclub/meta'
+import Meta from '@happyhackingspace/meta'
 import ColorSwitcher from '../components/color-switcher'
 import Content from '../components/content'
 
 const sample = `# Hello!
 
-This is [Hack Club **Markdown**](https://github.com/hackclub/markdown).
+This is [Happy Hacking Space **Markdown**](https://github.com/happyhackingspace/markdown).
 
 \`\`\`js
 const hi = () => console.log('Hello!')
@@ -36,7 +36,7 @@ export default () => {
       <Meta
         as={Head}
         name="Markdown"
-        description="Render Markdown to HTML, Hack Club-style. Get the package on npm at @hackclub/markdown."
+        description="Render Markdown to HTML, Happy Hacking Space-style. Get the package on npm at @happyhackingspace/markdown."
       />
       <ColorSwitcher />
       <Heading as="h1" variant="title" sx={{ textAlign: 'center' }}>
@@ -49,7 +49,7 @@ export default () => {
             WebkitTextFillColor: 'transparent'
           }}
         >
-          Hack Club
+          Happy Hacking Space
         </Text>{' '}
         <Text
           as="span"
@@ -72,8 +72,8 @@ export default () => {
           a: { color: 'muted', transition: 'color .125s ease-in-out' }
         }}
       >
-        <NavLink href="https://github.com/hackclub/markdown">GitHub</NavLink>
-        <NavLink href="https://npmjs.com/package/@hackclub/markdown">
+        <NavLink href="https://github.com/happyhackingspace/markdown">GitHub</NavLink>
+        <NavLink href="https://npmjs.com/package/@happyhackingspace/markdown">
           npm
         </NavLink>
       </Grid>
