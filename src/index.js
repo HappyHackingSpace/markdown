@@ -46,7 +46,7 @@ const markdownToHtml = async (
     const file = await processor.process(md)
 
     // Replace non-breaking spaces (char code 160) with normal spaces to avoid style issues
-    return file.contents.replace(/\xA0/g, ' ')
+    return String(file).replace(/\xA0/g, ' ')
   } catch (error) {
     console.error(`Markdown to HTML error: ${error}`)
     throw error
